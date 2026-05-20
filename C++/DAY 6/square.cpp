@@ -5,6 +5,7 @@ int square(int n ){
     return n*n;
 
 }
+
 int main(){
     int num =5;
     //function call

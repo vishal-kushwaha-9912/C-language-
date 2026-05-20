@@ -1,4 +1,7 @@
-/* >A function is used to avoid repeating work and make code simple and organized.
+
+/* 
+>A function is used to avoid repeating work and make code simple and organized.
+
 >In short:
 Function = input → work → output
 >A function is a block of code that performs a specific task.
@@ -9,7 +12,7 @@ Function = input → work → output
 using namespace std;
 
     //declare and define .
-    //return_type functionNAMe(parameter, parameter, parameter)
+    //return_type functionNAMe (parameter, parameter, parameter)
     
  int factorial (int n){
 
