@@ -1,3 +1,3 @@
- int discount;
-//  cout<<" enter the status you are a student or not "<<endl;
-//  cin>>discount;
+ // else if(ordertea == "0"){
+    //     cout<<"you have no oder for green tea";
+    // }
