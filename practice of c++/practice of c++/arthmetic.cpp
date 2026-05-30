@@ -1,32 +1,31 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
- 
- int ordersofteacups;
-cout<< " how many tea cup you want :"<<endl;
-cin>>ordersofteacups;
- 
+int main()
+{
 
-float pricepercup ;
- cout <<"the price of the per cup of the tea is :"<<endl;
- cin>>pricepercup;
+    int ordersofteacups;
+    cout << " how many tea cup you want :" << endl;
+    cin >> ordersofteacups;
 
-int toatalpriceofTEA;
-toatalpriceofTEA = ordersofteacups*pricepercup;
- cout<<"the toatal price of the tea :"<<toatalpriceofTEA<<endl;
+    float pricepercup;
+    cout << "the price of the per cup of the tea is :" << endl;
+    cin >> pricepercup;
 
-if(toatalpriceofTEA >=100){
-    int discountprice;
-    
-   discountprice = toatalpriceofTEA - (toatalpriceofTEA *0.05);
-cout<<"the price after the discount is :"<<discountprice;
-}
-else{
-    cout<<"sorry you have no discount on tea price"<<endl;
-}
+    int toatalpriceofTEA;
+    toatalpriceofTEA = ordersofteacups * pricepercup;
+    cout << "the toatal price of the tea :" << toatalpriceofTEA << endl;
 
+    if (toatalpriceofTEA >= 100)
+    {
+        int discountprice;
 
+        discountprice = toatalpriceofTEA - (toatalpriceofTEA * 0.05);
+        cout << "the price after the discount is :" << discountprice;
+    }
+    else
+    {
+        cout << "sorry you have no discount on tea price" << endl;
+    }
 
-return 0;
-
+    return 0;
 }
