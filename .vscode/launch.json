@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Vishal Kushwaha/OneDrive/Desktop/DSA and GEN AI/practice of c++",
-      "program": "c:/Users/Vishal Kushwaha/OneDrive/Desktop/DSA and GEN AI/practice of c++/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
