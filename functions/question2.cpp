@@ -59,20 +59,20 @@
 // Write a function called calculateAverage() that takes three numbers as parameters and returns their average.
  //Test it with different values and display the results.
 
-//  #include<iostream>
-//  using namespace std;
+ #include<iostream>
+ using namespace std;
 
-// double calculateAverage(int num1,int num2,int num3){
-//     return (num1+num2+num3)/3.0;
+double calculateAverage(int num1,int num2,int num3){
+    return (num1+num2+num3)/3.0;
 
-//  }
-// int main(){
-//     double average =calculateAverage(0,9,11);
+ }
+int main(){
+    double average =calculateAverage(0,9,11);
 
-// cout<<"the average is :"<<average<<endl;
+cout<<"the average is :"<<average<<endl;
 
-//     return 0;
-// }
+    return 0;
+}
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -86,9 +86,9 @@
 
 
 //ANSWER :
-
-#include<iostream>
-using namespace std;
-countVowels(string){
+// // 
+// #include<iostream>
+// using namespace std;
+// countVowels(string){
     
-}
+// }
