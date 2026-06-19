@@ -32,3 +32,5 @@ cout<<"Ending main()"<<endl;
 
     return 0;
 }
+
+//"The main work of the code is to show how a function works inside another function."

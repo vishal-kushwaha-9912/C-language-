@@ -31,3 +31,8 @@ Now you actually perform those steps.
 This is like calling the function.
 
 makeTea(); //calling the function.
+
+int main(){
+  makeTea();  //calling the function.
+ return 0;
+}
