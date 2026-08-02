@@ -62,15 +62,15 @@
 #include<iostream>
 using namespace std;
 
-int multiply(int num1, int num2);
+ int multiply(int num1, int num2);      //   A function declaration
 
-int multiply(int num1, int num2){
+int multiply(int num1, int num2){        // function definition
 
     return num1*num2;
 }
 
 int main(){
-   int total= multiply(3,4) ;
+   int total= multiply(3,4) ;                //  function call
 
     cout<<"there product is :"<<total<<endl;
 

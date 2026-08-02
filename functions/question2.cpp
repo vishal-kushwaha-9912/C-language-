@@ -86,9 +86,9 @@ cout<<"the average is :"<<average<<endl;
 
 
 //ANSWER :
-// // 
-// #include<iostream>
-// using namespace std;
-// countVowels(string){
+// 
+#include<iostream>
+using namespace std;
+countVowels(string){
     
-// }
+}

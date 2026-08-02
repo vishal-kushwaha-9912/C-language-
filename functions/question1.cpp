@@ -6,19 +6,19 @@
 
 // Call the function from main().
 
-// #include<iostream>
-// using namespace std;
-// void welcome(){    //Function Definition
+#include<iostream>
+using namespace std;
+void welcome(){    //Function Definition
 
-//     cout<<"welcome to c++ programming"<<endl;
+    cout<<"welcome to c++ programming"<<endl;
 
-//     }
+    }
 
-//     int main(){
+    int main(){
 
-//         welcome();  //Function call
-//         return 0;
-//     }
+        welcome();  //Function call
+        return 0;
+    }
 
 
 
@@ -35,19 +35,19 @@
 
 // Call the function once.
 
-// #include<iostream>
-// using namespace std;
+#include<iostream>
+using namespace std;
 
-// void myname(){
-//     cout<<"my name is vishal"<<endl;
-// }
+void myname(){
+    cout<<"my name is vishal"<<endl;
+}
 
-// int main(){
+int main(){
 
-//     myname();
-//     return 0;
+    myname();
+    return 0;
 
-// }
+}
 
 
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -64,39 +64,39 @@
 
 // answer
 
-// #include <iostream>
-// using namespace std;
-// void tea()
-// {
-//     cout << "Tea is ready " << endl;
-// }
+#include <iostream>
+using namespace std;
+void tea()
+{
+    cout << "Tea is ready " << endl;
+}
 
-// int main()
-// {
-//     tea();
-//     tea();
-//     tea();
-//     return 0;
-// }
+int main()
+{
+    tea();
+    tea();
+    tea();
+    return 0;
+}
 
 // OR
 
 
-// #include <iostream>
-// using namespace std;
-// void tea()
-// {
-//     cout << "Tea is ready " << endl;
-// }
+#include <iostream>
+using namespace std;
+void tea()
+{
+    cout << "Tea is ready " << endl;
+}
 
-// int main(){
-//     for(int i=1; i<4; i++){
-//         tea();
-//     }
+int main(){
+    for(int i=1; i<4; i++){
+        tea();
+    }
    
     
-//     return 0;
-// }
+    return 0;
+}
 
 
 
